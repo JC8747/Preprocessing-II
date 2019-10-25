@@ -1,13 +1,19 @@
 .btn {
   width: 70%;
   height: 0 auto;
-  margin: 10px 20px;
+  margin: 0 2% 0;
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
   background-color: teal;
   color: white;
   border-radius: 10px;
+}
+@media (max-width:500px) {
+  .btn {
+    width: 100%;
+    margin: 5% 0 10%;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -222,9 +228,21 @@ header nav a {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width:500px) {
+  .home .content-section .text-content {
+    width: 90%;
+    margin: 0 5% 0;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width:500px) {
+  .home .content-section .img-content {
+    width: 90%;
+    margin: 0 5% 0;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -245,6 +263,12 @@ header nav a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width:500px) {
+  .home .content-destination {
+    width: 90%;
+    margin: 0 5% 0;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -254,7 +278,19 @@ header nav a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .home .content-pick {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width:500px) {
+  .home .content-pick .destination {
+    width: 70%;
+    margin: 0 15% 0;
+  }
 }
