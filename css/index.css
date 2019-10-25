@@ -168,17 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: dashed 1.25px grey;
+}
+header .funbus {
+  padding-bottom: 15px;
+  border-top: dashed 1.5px grey;
+}
 header h1 {
-  text-align: initial;
+  float: left;
 }
 header nav {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  padding-left: 70%;
 }
 header nav a {
   text-decoration: none;
+  font-size: 1rem;
+  padding: 20px;
 }
 .footer {
   width: 100%;
